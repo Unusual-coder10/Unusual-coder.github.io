@@ -1,9 +1,60 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Common CSS Properties</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
 <body>
-  <h1>Felix Yanez</h1>
-  <p>Welcome to my first Github website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <h1>Common CSS Properties</h1>
+    <br>
+    <h2>CSS Tags</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Meaning</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span class="code">* {}</span>
+                </td>
+                <td>Universal Selector</td>
+                <td>targets all elements on the page</td>
+            </tr>
+            <tr>
+                <td><span class="code">h1, h2, h3 {}</span></td>
+                <td>Type Selector</td>
+                <td>Targets the &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt; elmeents</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">.note {} or p.note{}</span>
+                </td>
+                <td>Class Selector</td>
+                <td>targets any element whose classs attribute has a value of note</td>
+                <br>
+                <td>Targets only &lt;p&gt; elemens whose class attribute has a value of note</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">#introduction</span>
+                </td>
+                <td>ID Selector</td>
+                <td>Targets the element whose id attribute has a value of introduction</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">li&gt;a{}</span>
+                </td>
+                <td>Child Selector</td>
+                <td>Targets any &lt;a&gt; elements that are children of an &lt;li&gt; element, even if there are other elements nested between them</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
- 
 </html>
+<!-- /Users/felixyanez/Desktop/Codecademy Projects/html-css-cheatsheet-starting/styles.css -->
+<!-- /Users/felixyanez/Desktop/Codecademy Projects/html-css-cheatsheet-starting/index.html -->
